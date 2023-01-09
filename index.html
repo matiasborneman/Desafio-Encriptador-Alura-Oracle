@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+    <script src="index.js"></script> 
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>    
+    <img src="source/img/Logo-desafio.png" class="logo">
+    <input type="text" placeholder="Ingrese Texto aquí">
+    <div class="frame1">
+        <iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon>
+        <legend class="span-leyenda">Solo letras minúsculas y sin acentos</legend>
+    </div>
+    <div class="rectangule">
+        <img src="source/img/Muñeco-desafio.png" id="muñeco"style="visibility:visible">
+        <p id="text-salida"style="visibility:hidden" ></p>
+        <button class="btn-copiar"onclick=copiar()>COPIAR</button>
+        <div class="frame5" id="frame5" style="visibility:hidden">
+            <span id="textinfo1">NINGUN MENSAJE FUE ENCONTRADO</span>
+            <span id="textinfo2">Ingresa el texto que desees encriptar o desencriptar</span>
+        </div>
+    </div>
+    <div class="frame3">
+        <button class="btn-encriptar"onclick=encriptar()>Encriptar</button>
+        <button class="btn-desencriptar"onclick=desencriptar()>Desencriptar</button>
+    </div>
+</body>
+</html>

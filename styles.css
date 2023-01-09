@@ -1,0 +1,357 @@
+html{
+    height:100%;
+}
+body{
+    /* Encriptador - 1 Desktop */
+position: relative;
+margin:auto;
+background:linear-gradient(#FEFEFE,#8a9de0)
+}
+.logo{
+    /* Logo */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 20px;
+}
+input{
+    /* Ingrese el texto aqui */
+
+border:0;
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 148px;
+/* top: 168px; anterior */
+
+font-family:'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+background:none;
+}
+
+.frame1{
+   /* Frame 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 500px; 
+/* top: 851px; anterior */
+}
+.span-leyenda{
+    /* Solo letras minúsculas y sin acentos */
+
+
+width: 205px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.rectangule{
+  /* Rectangle 1 */
+
+
+position: absolute;
+width: 450px;
+height: 594px;
+/* height: 944px; anterior */
+left: 850px;
+top: 30px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 10px 14px 12px 8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+#muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;    
+    top: 64px;
+    /* antes 283px */
+    right: 30px;
+}
+.frame3{
+    /* Frame 3 */
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 680px;
+height: 67px;
+left: 108px;
+top: 535px;
+/* top: 885px; anterior */
+
+}
+#text-salida{
+    display:-webkit-flex;
+    position: absolute;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    width: 100px;
+    height: 215px;
+    left: 2px;
+    right:2px;
+    top: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 40;
+    font-size: 32px;
+    line-height: 100%;
+    color: #0A3871;
+    padding:20px;
+}
+.btn-copiar{
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+background:#cad1db;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 60px; 
+top: 505px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+cursor:pointer;
+transition:0.5s all;
+}
+.btn-copiar:hover{
+    background: #b5c1d1;
+    font-size:20px;
+    transform:scale(1.1);
+}
+.frame5{
+    /* Frame 5 */
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 56px;
+    top: 400px;
+    }
+    #textinfo1{
+        /* Ningún mensaje fue encontrado */
+    
+        height: 58px;
+    width: 336px;
+    left: 0px;
+    top: 0px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    #textinfo2{
+        /* Ingresa el texto que desees encriptar o desencriptar. */
+    
+    
+    width: 336px;
+    height: 48px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    
+    /* Gray/gray-400 */
+    
+    color: #495057;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+.btn-encriptar{
+   /* Button */
+   /* Auto layout */
+/* Dark blue/dark-blue-300 */
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    transition:0.5s all;
+    cursor:pointer;
+
+}
+.btn-encriptar:hover{
+
+    background:#0a3876;
+    font-size:20px;
+    transform:scale(1.1);
+
+}
+
+.btn-desencriptar{
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+transition:0.5s all;
+cursor:pointer;
+}
+.btn-desencriptar:hover{
+
+    background: #cad1db;
+    font-size:20px;
+    transform:scale(1.1);
+
+}
