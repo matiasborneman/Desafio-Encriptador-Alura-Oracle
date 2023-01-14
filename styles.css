@@ -1,11 +1,12 @@
-html{
-    height:100%;
-}
-body{
+html,body{
     /* Encriptador - 1 Desktop */
 position: relative;
 margin:auto;
-background:linear-gradient(#FEFEFE,#8a9de0)
+background:linear-gradient(#FEFEFE,#8a9de0);
+display: flex;
+height: 100%;
+width: 100%;
+min-height: 100%;
 }
 .logo{
     /* Logo */
@@ -353,4 +354,38 @@ cursor:pointer;
     background: #cad1db;
     font-size:20px;
     transform:scale(1.1);
+}
+
+@media (max-width:480px){
+    html,body{
+        height: 168vh;
+    }
+    .logo{
+        width: 39vh;
+        height: 16vh;
+        top: 6vh;
+        left: 1vh;
+    }
+    input{
+        width: auto;
+        left: 10vh;
+        top: 32vh;
+    }
+    .frame1 {
+        top:137vh;
+        font-size: 3em;
+    }
+    .rectangule{
+        top: 52vh;
+        height: 80vh;
+        width: 86vh;
+        left: 4vh;
+    }
+    .frame3{
+        width: 22em;
+        top: 145vh;
+        left:1vh;
+        gap: 3vh;
+        padding: 1px;
+    }
 }
