@@ -382,6 +382,11 @@ cursor:pointer;
         width: 95vh;
         left: 2.5vh;
     }
+    #muñeco{
+        top: 3vh;
+        width: 53vh;
+        height: auto;
+    }
     .span-leyenda{
         font-size: large;
         width: auto;
@@ -399,5 +404,12 @@ cursor:pointer;
         top: 147vh;
         margin: 0 auto;
         left: 0.5vh;
+    }
+    .frame5{
+        height: 122px;
+        width: 331px;
+        top: 247px;
+        left:1vh;
+        gap: 1vh;
     }
 }
