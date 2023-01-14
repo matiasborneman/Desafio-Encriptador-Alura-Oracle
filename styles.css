@@ -372,20 +372,32 @@ cursor:pointer;
         top: 32vh;
     }
     .frame1 {
-        top:137vh;
+        top: 139vh;
         font-size: 3em;
+        left: 6vh;
     }
     .rectangule{
-        top: 52vh;
-        height: 80vh;
-        width: 86vh;
-        left: 4vh;
+        top: 57vh;
+        height: 76vh;
+        width: 95vh;
+        left: 2.5vh;
+    }
+    .span-leyenda{
+        font-size: large;
+        width: auto;
+    }
+    .btn-copiar{
+        top: 63vh;
+        left: 28vh;
+    }
+    .btn-encriptar , .btn-desencriptar{
+        width: 47vh;
+        height:auto;
     }
     .frame3{
-        width: 22em;
-        top: 145vh;
-        left:1vh;
-        gap: 3vh;
-        padding: 1px;
+        width: 1em;
+        top: 147vh;
+        margin: 0 auto;
+        left: 0.5vh;
     }
 }
