@@ -358,33 +358,33 @@ cursor:pointer;
 
 @media (max-width:480px){
     html,body{
-        height: 168vh;
+        height: 129vh;
     }
     .logo{
-        width: 39vh;
-        height: 16vh;
+        width: auto;
+        height: 6vh;
         top: 6vh;
         left: 1vh;
     }
     input{
         width: auto;
-        left: 10vh;
-        top: 32vh;
+        left: 5vh;
+        top: 14vh;
     }
     .frame1 {
-        top: 139vh;
+        top: 111vh;
         font-size: 3em;
         left: 6vh;
     }
     .rectangule{
-        top: 57vh;
+        top: 31vh;
         height: 76vh;
-        width: 95vh;
+        width: 52vh;
         left: 2.5vh;
     }
     #muñeco{
-        top: 3vh;
-        width: 53vh;
+        top: 6vh;
+        width: 44vh;
         height: auto;
     }
     .span-leyenda{
@@ -392,24 +392,24 @@ cursor:pointer;
         width: auto;
     }
     .btn-copiar{
-        top: 63vh;
-        left: 28vh;
+        top: 65vh;
+        left: 1vh;
     }
     .btn-encriptar , .btn-desencriptar{
-        width: 47vh;
+        width: 26vh;
         height:auto;
     }
     .frame3{
         width: 1em;
-        top: 147vh;
+        top: 117vh;
         margin: 0 auto;
         left: 0.5vh;
     }
     .frame5{
         height: 122px;
         width: 331px;
-        top: 247px;
-        left:1vh;
+        top: 338px;
+        left:3vh;
         gap: 1vh;
     }
 }
